@@ -57,6 +57,13 @@ from pathlib import Path
 # 0. CONFIG  (every value can be overridden with an environment variable of the same name)
 # --------------------------------------------------------------------------------------
 
+# Secrets pasted into GitHub often carry a hidden newline or space at the end: strip them all here.
+for _k in ("TELEGRAM_BOT_TOKEN", "TELEGRAM_CHAT_ID", "CLAUDE_CODE_TOKEN", "CLAUDE_CODE_OAUTH_TOKEN",
+           "FIRECRAWL_API_KEY", "REED_API_KEY", "RESUME_EMAIL", "RESUME_PHONE"):
+    if os.getenv(_k) is not None:
+        os.environ[_k] = os.environ[_k].strip()
+
+
 def env(name, default):
     raw = os.getenv(name)
     if raw is None or raw == "":
