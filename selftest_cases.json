@@ -1,0 +1,378 @@
+{
+ "_readme": "Offline test jobs for `python run_jobs.py selftest`: [title, location, description, extra fields, keep?]. {filler} = a normal job description for this person.",
+ "filler": " You will provide 1st line IT support on the service desk: troubleshooting hardware, printers and network connectivity (TCP/IP, DNS, DHCP), logging and escalating tickets, and helping users with Cisco switches, VPN and firewall access. Good customer service and Wireshark/Linux skills are a plus.  You will provide 1st line IT support on the service desk: troubleshooting hardware, printers and network connectivity (TCP/IP, DNS, DHCP), logging and escalating tickets, and helping users with Cisco switches, VPN and firewall access. Good customer service and Wireshark/Linux skills are a plus.  You will provide 1st line IT support on the service desk: troubleshooting hardware, printers and network connectivity (TCP/IP, DNS, DHCP), logging and escalating tickets, and helping users with Cisco switches, VPN and firewall access. Good customer service and Wireshark/Linux skills are a plus. ",
+ "cases": [
+  [
+   "1st Line Service Desk Engineer",
+   "London, England, United Kingdom",
+   "Entry level role, full training provided.{filler}",
+   {},
+   true
+  ],
+  [
+   "IT Support Technician",
+   "Watford, England, United Kingdom",
+   "0-1 years experience.{filler}",
+   {},
+   true
+  ],
+  [
+   "Junior Network Engineer",
+   "Guildford, Surrey",
+   "1-2 years of networking experience. CCNA desirable.{filler}",
+   {},
+   true
+  ],
+  [
+   "Junior NOC Engineer",
+   "Reading, England, United Kingdom",
+   "24/7 shift pattern. Graduates welcome.{filler}",
+   {},
+   true
+  ],
+  [
+   "IT Helpdesk Analyst",
+   "Croydon, London",
+   "{filler}",
+   {},
+   true
+  ],
+  [
+   "Network Support Engineer",
+   "Hemel Hempstead",
+   "Minimum 1 year in a support role.{filler}",
+   {},
+   true
+  ],
+  [
+   "Service Desk Analyst",
+   "United Kingdom",
+   "Fully remote.{filler}",
+   {
+    "is_remote": true
+   },
+   true
+  ],
+  [
+   "Service Desk Analyst",
+   "Work from Home",
+   "{filler}",
+   {
+    "is_remote": true,
+    "site": "reed"
+   },
+   true
+  ],
+  [
+   "Junior Cyber Security Analyst",
+   "London",
+   "Must be eligible for SC clearance.{filler}",
+   {},
+   true
+  ],
+  [
+   "Desktop Support Technician",
+   "Canary Wharf, London",
+   "Sky does not offer sponsorship for this position.{filler}",
+   {},
+   true
+  ],
+  [
+   "Infrastructure Support Engineer",
+   "Slough",
+   "Experience: 2+ years.{filler}",
+   {},
+   true
+  ],
+  [
+   "Technical Support Engineer",
+   "London",
+   "6 month fixed-term contract.{filler}",
+   {},
+   true
+  ],
+  [
+   "Graduate IT Support",
+   "London",
+   "Our graduate programme starts in September.{filler}",
+   {},
+   true
+  ],
+  [
+   "Service Desk Analyst",
+   "Manchester, England, United Kingdom",
+   "{filler}",
+   {},
+   false
+  ],
+  [
+   "Service Desk Analyst",
+   "Birmingham",
+   "{filler}",
+   {},
+   false
+  ],
+  [
+   "Network Engineer",
+   "United States",
+   "{filler}",
+   {
+    "is_remote": true
+   },
+   false
+  ],
+  [
+   "Service Desk Analyst",
+   "London",
+   "Location: Edinburgh office.{filler}",
+   {},
+   false
+  ],
+  [
+   "Network Support Engineer",
+   "London",
+   "3+ years of experience in network support.{filler}",
+   {},
+   false
+  ],
+  [
+   "IT Support Analyst",
+   "London",
+   "Minimum 5 years experience.{filler}",
+   {},
+   false
+  ],
+  [
+   "Senior IT Support Engineer",
+   "London",
+   "{filler}",
+   {},
+   false
+  ],
+  [
+   "3rd Line Support Engineer",
+   "London",
+   "{filler}",
+   {},
+   false
+  ],
+  [
+   "Service Desk Manager",
+   "London",
+   "{filler}",
+   {},
+   false
+  ],
+  [
+   "Network Architect",
+   "London",
+   "{filler}",
+   {},
+   false
+  ],
+  [
+   "IT Support Apprentice",
+   "London",
+   "{filler}",
+   {},
+   false
+  ],
+  [
+   "Junior Software Developer",
+   "London",
+   "{filler}",
+   {},
+   false
+  ],
+  [
+   "Security Officer",
+   "London",
+   "{filler}",
+   {},
+   false
+  ],
+  [
+   "IT Sales Executive",
+   "London",
+   "{filler}",
+   {},
+   false
+  ],
+  [
+   "Credit Analyst",
+   "London",
+   "{filler}",
+   {},
+   false
+  ],
+  [
+   "Service Desk Analyst",
+   "London",
+   "Short JD",
+   {},
+   false
+  ],
+  [
+   "Service Desk Analyst",
+   "London",
+   "{filler}",
+   {
+    "posted_days_ago": 9
+   },
+   false
+  ],
+  [
+   "Service Desk Analyst",
+   "London",
+   "{filler}",
+   {
+    "posted_days_ago": 1
+   },
+   true
+  ],
+  [
+   "IT Support Engineer",
+   "London",
+   "Training fee of £500 required.{filler}",
+   {},
+   false
+  ],
+  [
+   "IT Support Engineer - Law Firm",
+   "Holborn, London",
+   "Support for a legal practice.{filler}",
+   {},
+   true
+  ],
+  [
+   "Network Support Engineer (SC Cleared)",
+   "Hatfield, Hertfordshire",
+   "{filler}",
+   {},
+   true
+  ],
+  [
+   "Field Engineer",
+   "Woking",
+   "Full UK driving licence required.{filler}",
+   {},
+   true
+  ]
+ ],
+ "sample_job_title": "Service Desk Analyst",
+ "sample_resume": {
+  "resume": {
+   "headline": "1st Line IT Support / Service Desk Analyst | Networking (Cisco, TCP/IP, DNS, DHCP) | BSc Computer Networks & Security (First Class)",
+   "summary": "First Class Computer Networks and Security graduate with two years of frontline 1st and 2nd line technical support, hands-on Cisco routing and switching lab experience and a Zero Trust final-year project.",
+   "skills": [
+    {
+     "category": "Support",
+     "items": [
+      "1st Line Support",
+      "Troubleshooting",
+      "Fault Isolation",
+      "Active Directory"
+     ]
+    },
+    {
+     "category": "Networking",
+     "items": [
+      "TCP/IP",
+      "DNS",
+      "DHCP",
+      "VLANs",
+      "OSPF",
+      "BGP",
+      "Cisco IOS"
+     ]
+    },
+    {
+     "category": "Security",
+     "items": [
+      "RADIUS/AAA",
+      "ACLs",
+      "Firewalls (ASA)",
+      "VPN (IPsec)",
+      "Zero Trust"
+     ]
+    },
+    {
+     "category": "Tools",
+     "items": [
+      "Wireshark",
+      "GNS3",
+      "Packet Tracer",
+      "Kali Linux",
+      "Linux",
+      "Python"
+     ]
+    }
+   ],
+   "experience": [
+    {
+     "title": "Customer Service Manager - Technical Support (1st & 2nd Line)",
+     "org": "Entain (Coral)",
+     "dates": "Oct 2023 - Present",
+     "location": "",
+     "bullets": [
+      "Delivered first and second line technical support for in-shop IT, POS and gaming equipment, resolving printer, scanner and SSBT faults.",
+      "Delivered first and second line technical support for in-shop IT, POS and gaming equipment, resolving printer, scanner and SSBT faults.",
+      "Delivered first and second line technical support for in-shop IT, POS and gaming equipment, resolving printer, scanner and SSBT faults."
+     ]
+    },
+    {
+     "title": "Student Learning Assistant",
+     "org": "Middlesex University",
+     "dates": "Sep 2024 - Apr 2025",
+     "location": "London, UK",
+     "bullets": [
+      "Delivered one-to-one and group technical support in Computer Networks, Operating Systems and Systems Architecture."
+     ]
+    }
+   ],
+   "projects": [
+    {
+     "name": "Zero Trust Network Architecture (ZTNA) for SMEs",
+     "tech": "GNS3, FreeRADIUS, Ubuntu Server, Samba, Wireshark",
+     "date": "Final Year Project",
+     "link": "",
+     "bullets": [
+      "Designed and built a full Zero Trust network in GNS3 with FreeRADIUS, Ubuntu Server and Samba.",
+      "Designed and built a full Zero Trust network in GNS3 with FreeRADIUS, Ubuntu Server and Samba.",
+      "Designed and built a full Zero Trust network in GNS3 with FreeRADIUS, Ubuntu Server and Samba."
+     ]
+    },
+    {
+     "name": "Hands-On Lab Work",
+     "tech": "Cisco switches, routers, ASA",
+     "date": "",
+     "link": "",
+     "bullets": [
+      "Built DMVPN, IPsec VPN, Multi-Area OSPF and BGP topologies on live Cisco kit.",
+      "Built DMVPN, IPsec VPN, Multi-Area OSPF and BGP topologies on live Cisco kit."
+     ]
+    }
+   ],
+   "education": [
+    {
+     "degree": "BSc (Hons) Computer Networks and Security - First Class Honours",
+     "school": "Middlesex University, London",
+     "dates": "2023 - 2026",
+     "details": ""
+    }
+   ],
+   "certifications": [],
+   "achievements": [
+    "Travelteer Volunteer, Morocco (July 2025)"
+   ]
+  },
+  "cover_letter": {
+   "greeting": "Dear Hiring Manager,",
+   "paragraphs": [
+    "Para one.",
+    "Para two & <test>."
+   ],
+   "closing": "Kind regards,"
+  }
+ }
+}

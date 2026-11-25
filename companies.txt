@@ -1,0 +1,31 @@
+# Company job sources for Rathan's bot. One per line. Lines starting with # are ignored.
+#
+# 1) Official job feeds (free, full job descriptions, never blocked):
+#      greenhouse <slug>     from job-boards.greenhouse.io/<slug>
+#      lever <slug>          from jobs.lever.co/<slug>
+#      ashby <slug>          from jobs.ashbyhq.com/<slug>
+#
+# 2) Any other careers page, read with Firecrawl (needs the FIRECRAWL_API_KEY secret; 1 credit per page):
+#      firecrawl <careers search page URL> <Company name> | <default city>
+#    4 pages are visited per day in rotation (so each company about every 2-3 days). Links whose text
+#    looks like one of his target titles are opened for the full job description (max 4 per scan).
+#
+# ⚠️ CHECK EACH URL ONCE: open it in a browser. It should show a LIST of jobs (ideally already searched
+#    for "support" / "network" and filtered to the UK). If it doesn't, do the search on the site yourself
+#    and paste the address bar URL here instead. The Telegram scan summary tells you
+#    "no matching links on <Company>" when a page needs fixing.
+#
+# Only jobs in his areas (London, Hertfordshire, Surrey, Reading/Berkshire, remote UK) are kept, and all
+# his normal role / experience filters still apply. Most of these companies also post on LinkedIn,
+# Indeed and Reed, which the bot already searches.
+
+firecrawl https://jobs.bt.com/search/?q=support&locationsearch=United+Kingdom BT | London
+firecrawl https://careers.sky.com/jobs Sky | London
+firecrawl https://jobs.virginmediao2.co.uk/en_US/careersmarketplace/SearchJobs Virgin Media O2 | London
+firecrawl https://www.computacenter.com/en-gb/careers Computacenter | Hatfield, Hertfordshire
+firecrawl https://www.capgemini.com/gb-en/careers/join-capgemini/job-search/?search_term=support Capgemini | London
+firecrawl https://www.accenture.com/gb-en/careers/jobsearch?jk=support Accenture | London
+firecrawl https://www.ibm.com/careers/search?q=support&field_keyword_05[0]=United%20Kingdom IBM | London
+firecrawl https://jobs.careers.microsoft.com/global/en/search?q=support&lc=United%20Kingdom Microsoft | Reading, Berkshire
+firecrawl https://careers.cisco.com/global/en/search-results?keywords=network&location=United%20Kingdom Cisco | London
+firecrawl https://careers.soprasteria.co.uk/uk/en/search-results?keywords=support Sopra Steria | Hemel Hempstead, Hertfordshire
